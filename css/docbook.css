@@ -2196,15 +2196,15 @@ nav.top a {
   text-decoration: none;
 }
 
-a:link {
+ul.toc a:link {
 
 }
 
-a:visited {
+ul.toc a:visited {
 
 }
 
-a:hover {
+ul.toc a:hover {
  color: red;
 }
 
@@ -2220,6 +2220,15 @@ pre.monospaced {
    font-size: 90%;
 }
 
+div.informaltable, div.table {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
 table td {
     vertical-align: top;
+}
+
+code.literal {
+  background-color: #D3D3D3;
 }
