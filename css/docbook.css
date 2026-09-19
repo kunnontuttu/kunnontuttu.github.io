@@ -21,7 +21,7 @@ border-color/* DocBook xslTNG version 2.1.9, https://xsltng.docbook.org */
 
 :root {
   /* The default theme. */
-/*  --background-color: #fffff8; */ /* SKa */
+
   --background-color: #ffffff;
   --surface-color: #fffff8;
   --primary-color: #7f7f7f;
@@ -371,7 +371,7 @@ a.pmuj {
 /* ============================================================ */
 h1, h2, h3, h4, h5, h6 {
 /*  color: var(--on-header-color); */
-  color: rgb(0,191,255);
+  color: rgb(0, 91, 174);
   background-color: var(--header-color);
   font-family: var(--title-family);
   font-weight: normal;
@@ -2180,7 +2180,8 @@ thead {
 
 
 nav.bottom, nav.top {
-  background-color: rgb(0,191,255);
+  background-color: rgb(0, 91, 174);
+  color: rgb(255, 255, 255);
 }
 
 nav.bottom {
